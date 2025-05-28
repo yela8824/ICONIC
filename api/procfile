@@ -1,0 +1,1 @@
+web: gunicorn iconic_api.wsgi --workers 3 --threads 2 --log-level info
