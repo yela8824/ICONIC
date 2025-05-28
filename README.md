@@ -22,10 +22,12 @@
 ├── dark/
 │ ├── python.svg
 │ ├── javascript.svg
+| ├── ....
 └── light/
-├── python.svg
-├── javascript.svg
-/api/ # Django API project (for live previews)
+| ├── python.svg
+| ├── javascript.svg
+| ├── ....
+└── api/
 ```
 
 ---
