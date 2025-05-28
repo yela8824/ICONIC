@@ -19,7 +19,7 @@
 
 ```
 ICONIC
-├── repo config files ( README, workflows, code_of_conduct, etc )
+├── repo config files ( README, workflows, contributing.md, etc )
 ├── icon-templates/
 ├── icons/
 |   ├── dark/
