@@ -1,4 +1,4 @@
-# Iconic
+# ICONIC
 
 > Be iconic, not generic.  
 > A dev-focused library of sleek, bubble-shaped skill icons built for GitHub READMEs, portfolios, and resumes.
