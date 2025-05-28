@@ -54,6 +54,8 @@ Here's a sample of some icons:
 Everything in oneline to show the icons in oneline
 <img src="https://iconic-api.onrender.com/dark/python" width="64px" style="display:inline" /> <img src="https://iconic-api.onrender.com/dark/html" width="64px" style="display:inline" /> <img src="https://iconic-api.onrender.com/dark/js" width="64px" style="display:inline" />
 ```
+> [!NOTE]  
+> It's recommended to use the HTML snippet in GitHub READMEs, as it allows better control over size, styling, and layout.
 
 ### Dark:
 
