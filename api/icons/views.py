@@ -15,3 +15,7 @@ def get_icon(request, theme, icon_name):
         raise Http404("Icon not found")
 
     return FileResponse(open(file_path, "rb"), content_type="image/svg+xml")
+
+
+def index_page(request):
+    pass

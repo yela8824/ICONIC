@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Error 500 - Internal Server Error</title>
+
+        <!-- Google Fonts -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@400;500&display=swap"
+            rel="stylesheet"
+        />
+
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                background-color: #f7f5ef;
+                font-family: "Roboto", sans-serif;
+                color: #2c2c2c;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                height: 100vh;
+                flex-direction: column;
+                padding: 1rem;
+            }
+
+            .container {
+                max-width: 600px;
+            }
+
+            h1 {
+                font-family: "Poppins", sans-serif;
+                font-size: 3rem;
+                color: #ff4d4f;
+                margin-bottom: 0.3rem;
+            }
+
+            h2 {
+                font-size: 1.4rem;
+                margin-bottom: 1rem;
+                color: #444;
+            }
+
+            p {
+                font-size: 1rem;
+                color: #555;
+                line-height: 1.6;
+            }
+
+            .btn {
+                margin-top: 2rem;
+                display: inline-block;
+                background-color: #3b82f6;
+                color: white;
+                padding: 0.75rem 1.5rem;
+                border-radius: 8px;
+                text-decoration: none;
+                font-weight: bold;
+                font-family: "Poppins", sans-serif;
+                transition: background-color 0.3s ease;
+            }
+
+            .btn:hover {
+                background-color: #2563eb;
+            }
+
+            .code-block {
+                margin-top: 1.5rem;
+                background-color: #ffffff;
+                border-left: 4px solid #ff4d4f;
+                padding: 1rem;
+                font-family: monospace;
+                font-size: 0.95rem;
+                color: #333;
+                border-radius: 8px;
+                text-align: left;
+            }
+
+            @media (max-width: 600px) {
+                h1 {
+                    font-size: 2.5rem;
+                }
+                h2 {
+                    font-size: 1.2rem;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Error 500</h1>
+            <h2>Internal Server Error</h2>
+            <p>
+                Sorry, something went wrong on our end. This wasn’t supposed to
+                happen.
+            </p>
+            <p>
+                Our team has been notified, and we’re already working on a fix.
+                Hang tight!
+            </p>
+
+            <div class="code-block">
+                <strong>Meanwhile, you can:</strong><br />
+                • Refresh the page after a moment<br />
+                • Head back to the homepage<br />
+                • Contact us if the issue keeps popping up
+            </div>
+
+            <a href="/" class="btn">← Back to Home</a>
+        </div>
+    </body>
+</html>
