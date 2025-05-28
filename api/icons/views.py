@@ -1,4 +1,4 @@
-from django.http import FileResponse, Http404
+from django.http import FileResponse, Http404, HttpResponse
 import os
 from django.conf import settings
 
@@ -18,4 +18,4 @@ def get_icon(request, theme, icon_name):
 
 
 def index_page(request):
-    return "Hello This is the home page"
+    return HttpResponse("<h1>Hello World</h1>")
