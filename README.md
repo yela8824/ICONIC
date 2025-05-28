@@ -18,15 +18,18 @@
 ## 📁 Folder Structure
 
 ```
-/icons/
-├── dark/
-│ ├── python.svg
-│ ├── javascript.svg
-| ├── ....
-└── light/
-| ├── python.svg
-| ├── javascript.svg
-| ├── ....
+ICONIC
+├── repo config files ( README, workflows, code_of_conduct, etc )
+├── icon-templates/
+├── icons/
+|   ├── dark/
+|   │ ├── python.svg
+|   │ ├── javascript.svg
+|   │ ├── ....
+|   └── light/
+|     ├── python.svg
+|     ├── javascript.svg
+|     ├── ....
 └── api/
 ```
 
