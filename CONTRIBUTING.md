@@ -75,7 +75,7 @@ Open a pull request on GitHub with a clear title and description of what you’v
 - Maintain existing **naming conventions** (lowercase, hyphen-separated if needed).
 - Icons should be **512x512 SVGs** with minimal paths.
 - Keep it **bubble-themed**, **aesthetic**, and **legible at small sizes**.
-- Light and dark icons should have **consistent shapes**, only differing in colors.
+- Light and dark icons should have **consistent shapes**, only differing in colors( use the templates ).
 
 ---
 
