@@ -51,7 +51,7 @@ Everything in oneline to show the icons in oneline
 
 ### Dark:
 
-<img src="icons/dark/python.svg" width="50px" title="Python" /> <img src="icons/dark/html.svg" width="50px" title="HTML" /> <img src="icons/dark/js.svg" width="50px" title="Javascript" />
+<img src="icons/dark/python.svg" width="50px" title="Python" /> <img src="icons/dark/html.svg" width="50px" title="HTML" /> <img src="icons/dark/js.svg" width="50px" title="Javascript" />  <img src="icons/dark/dart.svg" width="50px" title="Dart" />
 
 ### Light:
 
