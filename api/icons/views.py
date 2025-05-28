@@ -18,4 +18,4 @@ def get_icon(request, theme, icon_name):
 
 
 def index_page(request):
-    pass
+    return "Hello This is the home page"
