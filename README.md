@@ -25,26 +25,6 @@
 
 ---
 
-## 📁 Folder Structure
-
-```
-ICONIC
-├── repo config files ( README, workflows, contributing.md, etc )
-├── icon-templates/
-├── icons/
-|   ├── dark/
-|   │ ├── python.svg
-|   │ ├── javascript.svg
-|   │ ├── ....
-|   └── light/
-|     ├── python.svg
-|     ├── javascript.svg
-|     ├── ....
-└── api/
-```
-
----
-
 ## 🧪 Quick Preview
 
 Here's a sample of some icons:
