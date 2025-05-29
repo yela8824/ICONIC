@@ -53,9 +53,9 @@ Here's a sample of some icons:
 
 <!-- Use div tag for good format and it will show them in one line, without div tag it will be displayed on multiple lines -->
 <div>
-<img src="https://iconic-api.onrender.com/dark/python" width="64px" style="display:inline" />
-<img src="https://iconic-api.onrender.com/dark/html" width="64px" style="display:inline" />
-<img src="https://iconic-api.onrender.com/dark/js" width="64px" style="display:inline" />
+<img src="https://iconic-api.onrender.com/dark/python" width="64px" />
+<img src="https://iconic-api.onrender.com/dark/html" width="64px" />
+<img src="https://iconic-api.onrender.com/dark/js" width="64px" />
 <div>
 ```
 > [!NOTE]  
