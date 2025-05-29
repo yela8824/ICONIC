@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>ICONIC – Open Source Icon Gallery</title>
+
+        <!-- Google Fonts -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Montserrat:wght@400;600&family=Poppins:wght@400;600&display=swap"
+            rel="stylesheet"
+        />
+
+        <style>
+            @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+            body {
+                background-color: #fefefe;
+                font-family: "Inter", "Poppins", "Montserrat", sans-serif;
+                max-width: 900px;
+                margin: auto;
+                padding: 2.5rem 1rem;
+                line-height: 1.75;
+                color: #222;
+                opacity: 0;
+                animation: fadeInPage 0.8s ease forwards;
+            }
+
+            @keyframes fadeInPage {
+                to {
+                    opacity: 1;
+                }
+            }
+
+            h1 {
+                font-size: 2.75rem;
+                text-align: center;
+                margin-bottom: 1rem;
+                font-weight: 600;
+                opacity: 0;
+                transform: translateY(10px);
+                animation: fadeUp 0.6s ease forwards;
+                animation-delay: 0.3s;
+            }
+
+            @keyframes fadeUp {
+                to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+
+            h2 {
+                font-family: Inter, sans-serif;
+                font-size: 1.5rem;
+                margin-top: 2rem;
+                font-weight: 600;
+                opacity: 0;
+                transform: translateY(6px);
+                animation: fadeUp 0.5s ease forwards;
+                animation-delay: 0.5s;
+            }
+
+            p,
+            li {
+                font-size: 1rem;
+                opacity: 0;
+                animation: fadeInText 0.7s ease forwards;
+                animation-delay: 0.7s;
+            }
+
+            @keyframes fadeInText {
+                to {
+                    opacity: 1;
+                }
+            }
+
+            ul {
+                padding-left: 1.5rem;
+            }
+
+            .btn {
+                display: inline-block;
+                margin: 1rem 0.5rem;
+                padding: 0.8rem 1.2rem;
+                background-color: #007bff;
+                color: white;
+                text-decoration: none;
+                border-radius: 6px;
+                font-family: Montserrat, sans-serif;
+                font-weight: 500;
+                transition: background-color 0.3s ease, transform 0.15s ease;
+                will-change: transform, background-color;
+            }
+
+            .btn:hover,
+            .btn:focus {
+                background-color: #0056b3;
+                transform: scale(1.05);
+                outline: none;
+            }
+
+            .icons {
+                transition: color 0.3s ease;
+                will-change: color;
+            }
+
+            .icons:hover {
+                color: rgb(49, 0, 112);
+                cursor: default;
+                text-shadow: 0 0 4pxrgba (0, 4, 255, 0.27);
+            }
+
+            footer {
+                margin-top: 3rem;
+                font-size: 0.9rem;
+                color: #555;
+                text-align: center;
+                opacity: 0.8;
+                transition: opacity 0.3s ease;
+                will-change: opacity;
+            }
+
+            footer:hover {
+                opacity: 1;
+            }
+
+            footer a {
+                color: #007bff;
+                text-decoration: none;
+                position: relative;
+                transition: color 0.3s ease;
+                will-change: color;
+            }
+
+            footer a::after {
+                content: "";
+                position: absolute;
+                width: 100%;
+                height: 2px;
+                bottom: -2px;
+                left: 0;
+                background-color: #007bff;
+                transform: scaleX(0);
+                transform-origin: right;
+                transition: transform 0.3s ease;
+                will-change: transform;
+            }
+
+            footer a:hover::after {
+                transform: scaleX(1);
+                transform-origin: left;
+            }
+
+            footer a:hover {
+                color: #0056b3;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>ICONIC</h1>
+
+        <p>
+            ICONIC is a free, open-source collection of
+            <strong>theme-ready SVG icons</strong> curated and maintained by the
+            community. Whether you’re building a website, app, or design system
+            — you’ll find clean, ready-to-use icons that fit both
+            <span class="icons">🌙 Dark</span> and
+            <span class="icons">☀️ Light</span> modes.
+        </p>
+
+        <p>
+            Want to use an icon? Just copy the link. Want to contribute? Submit
+            your own icons and grow the collection with us.
+        </p>
+
+        <h2>🔗 Quick Links</h2>
+
+        <a href="/icon-gallery/" class="btn">🎨 View Icon Gallery</a>
+        <a
+            href="https://github.com/YuheshPandian/iconic"
+            class="btn"
+            target="_blank"
+            rel="noopener noreferrer"
+            >📁 GitHub Repo</a
+        >
+
+        <h2>💡 Highlights</h2>
+
+        <ul>
+            <li>
+                Simple folder structure: <code>/icons/dark/</code> and
+                <code>/icons/light/</code>
+            </li>
+            <li>
+                Instant icon access via minimal API:
+                <code>/icon/dark/python</code>
+            </li>
+            <li>Friendly for designers and beginners alike</li>
+            <li>Automatically checks for naming and theme consistency</li>
+        </ul>
+
+        <h2>🤝 Join the Project</h2>
+
+        <p>
+            Whether you're a designer, developer, or open-source enthusiast, we
+            welcome your help. Contribute icons, report issues, or just spread
+            the word.
+        </p>
+
+        <footer>
+            Maintained with 💙 by
+            <a
+                href="https://github.com/YuheshPandian"
+                target="_blank"
+                rel="noopener noreferrer"
+                >YuheshPandian</a
+            >
+        </footer>
+    </body>
+</html>

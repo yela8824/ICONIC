@@ -19,7 +19,7 @@ def get_icon(request, theme, icon_name):
 
 
 def index_page(request):
-    return HttpResponse("<h1>Hello World</h1>")
+    return render(request, "index.html")
 
 
 def icon_gallery_view(request):
