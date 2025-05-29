@@ -41,14 +41,6 @@ ICONIC
 Here's a sample of some icons:
 
 ```markdown
-## Markdown
-
-![Python](https://iconic-api.onrender.com/dark/python)
-![HTML](https://iconic-api.onrender.com/dark/html)
-![JS](https://iconic-api.onrender.com/dark/js)
-```
-
-```markdown
 ## HTML
 
 <!-- Use div tag for good format and it will show them in one line, without div tag it will be displayed on multiple lines -->
