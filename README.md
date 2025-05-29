@@ -87,3 +87,13 @@ Pull requests are welcome!
 
 [MIT License](LICENSE)
 
+---
+
+<div align="right">
+  
+![ICONS COUNTER](https://img.shields.io/github/directory-file-count/YuheshPandian/ICONIC/icons%2Fdark?style=for-the-badge&label=Icons&color=%23753ec2)
+
+
+</div>
+
+
