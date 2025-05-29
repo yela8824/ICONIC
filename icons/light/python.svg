@@ -89,12 +89,12 @@
            cx="240"
            cy="120"
            r="20"
-           style="fill:#ffffff;fill-opacity:1" /><circle
+           style="fill:#f2f2f2;fill-opacity:1" /><circle
            id="path104"
            cx="360"
            cy="480"
            r="20"
-           style="fill:#ffffff;fill-opacity:1" /></g><g
+           style="fill:#f2f2f2;fill-opacity:1" /></g><g
          id="layer2"
          inkscape:label="Capa 2"
          style="display:none"><path
