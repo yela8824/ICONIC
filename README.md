@@ -5,6 +5,16 @@
 
 ---
 
+<div align="center">
+  
+![ICONS COUNTER](https://img.shields.io/github/directory-file-count/YuheshPandian/ICONIC/icons%2Fdark?style=for-the-badge&label=Icons&color=%23753ec2)
+![Repo size](https://img.shields.io/github/repo-size/YuheshPandian/ICONIC?style=for-the-badge&color=%23ff5842)
+![Issues with label:icon](https://img.shields.io/github/issues/YuheshPandian/ICONIC/icon?style=for-the-badge)
+
+
+
+</div>
+
 ## ✨ Features
 
 -   🟦 Bubble icons designed for clarity and aesthetics
@@ -88,12 +98,5 @@ Pull requests are welcome!
 [MIT License](LICENSE)
 
 ---
-
-<div align="right">
-  
-![ICONS COUNTER](https://img.shields.io/github/directory-file-count/YuheshPandian/ICONIC/icons%2Fdark?style=for-the-badge&label=Icons&color=%23753ec2)
-
-
-</div>
 
 
