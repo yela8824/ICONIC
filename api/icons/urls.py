@@ -1,7 +1,8 @@
 from django.urls import path
-from .views import get_icon, index_page
+from .views import get_icon, index_page, icon_gallery_view
 
 urlpatterns = [
     path("<str:theme>/<str:icon_name>", get_icon),
     path("", index_page),
+    path("gallery/", icon_gallery_view, name="icon-gallery"),
 ]
