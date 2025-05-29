@@ -20,4 +20,4 @@ _If you have any example images, sketches, or links, please share them here._
 
 ---
 
-Thanks for helping improve the project with new icons! 🚀
+<!-- Thanks for helping improve the project with new icons! 🚀-->
