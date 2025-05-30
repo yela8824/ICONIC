@@ -27,6 +27,13 @@ assignees: YuheshPandian
 - If you know how to use tools like [Inkscape](https://inkscape.org/) or Figma, feel free to design one.
 - If not, don’t worry — someone from the community might pick it up.
 
+### 📃 Please follow the instructions below.
+- The icon must be in SVG format.
+- The icon must be in 512 x 512 resolution
+- There should be two versions of the icon: One version in a dark theme and another version in a light theme..
+- Both versions must be placed inside the `icons/` folder within the `dark/` and `light/` subfolders, respectively.
+- The icon should have a transparent background.
+
 ### 📚 Need help?
 
 Please read the [README](https://github.com/YuheshPandian/ICONIC/blob/main/README.md) for details about icon format, folder structure, and how to contribute.
