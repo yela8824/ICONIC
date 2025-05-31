@@ -22,7 +22,8 @@
 -   💾 Download-ready SVGs
 
 Here is a screenshot of several icons designed by ICONIC team.
-![image](https://github.com/user-attachments/assets/5bbfd9d5-3e51-4a3a-b1ca-86e16cbd3782)
+![image](https://github.com/user-attachments/assets/bebe0d5a-a5a0-4cbe-98c7-d9c98f274bd9)
+
 
 ---
 
