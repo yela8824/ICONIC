@@ -20,9 +20,9 @@
             body {
                 margin: 0;
                 padding: 0;
-                background-color: #f7f5ef;
+                background-color: #092635;
                 font-family: "Roboto", sans-serif;
-                color: #2c2c2c;
+                color: #5c8374;
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -38,48 +38,53 @@
 
             h1 {
                 font-family: "Poppins", sans-serif;
-                font-size: 3rem;
-                color: #ff4d4f;
+                font-size: 6rem;
+                color: #5c8374;
                 margin-bottom: 0.3rem;
+                line-height: 0.75;
             }
 
             h2 {
                 font-size: 1.4rem;
+                font-family: Inter, sans-serif;
+                font-weight: 300;
                 margin-bottom: 1rem;
-                color: #444;
+                color: #9ec8b9;
             }
 
             p {
                 font-size: 1rem;
-                color: #555;
+                color: #5c8374;
                 line-height: 1.6;
             }
 
             .btn {
                 margin-top: 2rem;
                 display: inline-block;
-                background-color: #3b82f6;
-                color: white;
+                background-color: #1b4242;
+                color: #ddd;
+                border: 2px solid #9ec8b9;
                 padding: 0.75rem 1.5rem;
                 border-radius: 8px;
                 text-decoration: none;
                 font-weight: bold;
                 font-family: "Poppins", sans-serif;
-                transition: background-color 0.3s ease;
+                transition: 0.3s ease;
             }
 
             .btn:hover {
-                background-color: #2563eb;
+                background-color: #9ec8b9;
+                color: #333;
             }
 
             .code-block {
                 margin-top: 1.5rem;
-                background-color: #ffffff;
-                border-left: 4px solid #ff4d4f;
+                background-color: #1b4242;
+                border-left: 4px solid #9ec8b9;
                 padding: 1rem;
                 font-family: monospace;
                 font-size: 0.95rem;
-                color: #333;
+                color: #ddd;
                 border-radius: 8px;
                 text-align: left;
             }
@@ -99,12 +104,8 @@
             <h1>Error 500</h1>
             <h2>Internal Server Error</h2>
             <p>
-                Sorry, something went wrong on our end. This wasn’t supposed to
-                happen.
-            </p>
-            <p>
-                Our team has been notified, and we’re already working on a fix.
-                Hang tight!
+                Sorry, something went wrong on our end. Please try again
+                sometime later.
             </p>
 
             <div class="code-block">
@@ -114,7 +115,7 @@
                 • Contact us if the issue keeps popping up
             </div>
 
-            <a href="/" class="btn">← Back to Home</a>
+            <a href="/" class="btn">Back to Home</a>
         </div>
     </body>
 </html>

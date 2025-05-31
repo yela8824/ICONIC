@@ -1,10 +1,19 @@
-
-# ICONIC
+<img src="Banner.svg"/>
 
 > Be iconic, not generic.  
 > A dev-focused library of sleek, bubble-shaped skill icons built for GitHub READMEs, portfolios, and resumes.
 
 ---
+
+<div align="center">
+  
+![ICONS COUNTER](https://img.shields.io/github/directory-file-count/YuheshPandian/ICONIC/icons%2Fdark?style=for-the-badge&label=Icons&color=%23753ec2)
+![Repo size](https://img.shields.io/github/repo-size/YuheshPandian/ICONIC?style=for-the-badge&color=%23ff5842)
+![Issues with label:icon](https://img.shields.io/github/issues/YuheshPandian/ICONIC/icon?style=for-the-badge)
+
+
+
+</div>
 
 ## ✨ Features
 
@@ -14,29 +23,13 @@
 -   ⚙️ HTML preview API with Django backend
 -   💾 Download-ready SVGs
 
----
+Here is a screenshot of several icons designed by ICONIC team.
+![image](https://github.com/user-attachments/assets/5bbfd9d5-3e51-4a3a-b1ca-86e16cbd3782)
 
-## 📁 Folder Structure
-
-```
-ICONIC
-├── repo config files ( README, workflows, contributing.md, etc )
-├── icon-templates/
-├── icons/
-|   ├── dark/
-|   │ ├── python.svg
-|   │ ├── javascript.svg
-|   │ ├── ....
-|   └── light/
-|     ├── python.svg
-|     ├── javascript.svg
-|     ├── ....
-└── api/
-```
 
 ---
 
-## 🧪 Quick Preview
+## 🧪 Quick Implementation
 
 Here's a sample of some icons:
 
@@ -87,4 +80,7 @@ Pull requests are welcome!
 ## 📜 License
 
 [MIT License](LICENSE)
+
+---
+
 
