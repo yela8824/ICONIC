@@ -9,6 +9,10 @@
             href="https://raw.githubusercontent.com/YuheshPandian/ICONIC/refs/heads/main/icons/light/iconic.svg"
             type="image/svg+xml"
         />
+        <script
+            src="https://kit.fontawesome.com/0f7ac66354.js"
+            crossorigin="anonymous"
+        ></script>
 
         <!-- Google Fonts -->
         <link
@@ -18,16 +22,54 @@
 
         <style>
             @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
             body {
-                background-color: #fefefe;
+                background-color: #092635;
                 font-family: "Inter", "Poppins", "Montserrat", sans-serif;
-                max-width: 900px;
-                margin: auto;
-                padding: 2.5rem 1rem;
                 line-height: 1.75;
-                color: #222;
+                color: #bbb;
                 opacity: 0;
                 animation: fadeInPage 0.8s ease forwards;
+            }
+
+            nav {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                background: rgb(27, 66, 66);
+                position: fixed;
+                top: 0;
+                left: 0;
+                z-index: 100;
+                width: 100%;
+                padding: 12px 16px;
+            }
+            nav span {
+                font-size: 1.55rem;
+            }
+            nav ul {
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                list-style: none;
+            }
+            nav ul a {
+                font-size: 1.35rem;
+                color: #5c8374;
+                text-decoration: none;
+                transition: 0.3s ease;
+            }
+            nav ul a:hover {
+                color: #9ec8b9;
+            }
+            main {
+                margin: 80px auto;
+                max-width: 900px;
             }
 
             @keyframes fadeInPage {
@@ -37,14 +79,17 @@
             }
 
             h1 {
-                font-size: 2.75rem;
-                text-align: center;
+                font-size: 4.25rem;
+                letter-spacing: 2px;
                 margin-bottom: 1rem;
                 font-weight: 600;
+                font-family: Poppins, sans-serif;
                 opacity: 0;
                 transform: translateY(10px);
                 animation: fadeUp 0.6s ease forwards;
                 animation-delay: 0.3s;
+                line-height: 1.2;
+                color: #5c8374;
             }
 
             @keyframes fadeUp {
@@ -56,10 +101,12 @@
 
             h2 {
                 font-family: Inter, sans-serif;
-                font-size: 1.5rem;
+                font-size: 2.5rem;
                 margin-top: 2rem;
-                font-weight: 600;
+                font-weight: 500;
+                color: #5c8374;
                 opacity: 0;
+                border-bottom: 2px solid #1b4242;
                 transform: translateY(6px);
                 animation: fadeUp 0.5s ease forwards;
                 animation-delay: 0.5s;
@@ -83,42 +130,10 @@
                 padding-left: 1.5rem;
             }
 
-            .btn {
-                display: inline-block;
-                margin: 1rem 0.5rem;
-                padding: 0.8rem 1.2rem;
-                background-color: #007bff;
-                color: white;
-                text-decoration: none;
-                border-radius: 6px;
-                font-family: Montserrat, sans-serif;
-                font-weight: 500;
-                transition: background-color 0.3s ease, transform 0.15s ease;
-                will-change: transform, background-color;
-            }
-
-            .btn:hover,
-            .btn:focus {
-                background-color: #0056b3;
-                transform: scale(1.05);
-                outline: none;
-            }
-
-            .icons {
-                transition: color 0.3s ease;
-                will-change: color;
-            }
-
-            .icons:hover {
-                color: rgb(49, 0, 112);
-                cursor: default;
-                text-shadow: 0 0 4pxrgba (0, 4, 255, 0.27);
-            }
-
             footer {
-                margin-top: 3rem;
+                margin-block: 3rem;
                 font-size: 0.9rem;
-                color: #555;
+                color: #ddd;
                 text-align: center;
                 opacity: 0.8;
                 transition: opacity 0.3s ease;
@@ -130,7 +145,7 @@
             }
 
             footer a {
-                color: #007bff;
+                color: #5c8374;
                 text-decoration: none;
                 position: relative;
                 transition: color 0.3s ease;
@@ -144,7 +159,7 @@
                 height: 2px;
                 bottom: -2px;
                 left: 0;
-                background-color: #007bff;
+                background-color: #9ec8b9;
                 transform: scaleX(0);
                 transform-origin: right;
                 transition: transform 0.3s ease;
@@ -157,63 +172,85 @@
             }
 
             footer a:hover {
-                color: #0056b3;
+                color: #9ec8b9;
+            }
+            .preview-img {
+                -webkit-mask-image: linear-gradient(
+                    to bottom,
+                    #092635 80%,
+                    transparent 100%
+                );
+                mask-image: linear-gradient(
+                    to bottom,
+                    #092635 80%,
+                    transparent 100%
+                );
+
+                -webkit-mask-size: 100% 100%;
+                mask-size: 100% 100%;
+                -webkit-mask-repeat: no-repeat;
+                mask-repeat: no-repeat;
             }
         </style>
     </head>
     <body>
-        <h1>ICONIC</h1>
+        <header>
+            <nav>
+                <span>ICONIC</span>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/gallery/">Gallery</a></li>
+                    <li>
+                        <a href="https://github.com/YuheshPandian/ICONIC"
+                            ><i class="fa-brands fa-github"></i
+                        ></a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h1>CLEAN. CONSISTENT.<br />ICONIC.</h1>
 
-        <p>
-            ICONIC is a free, open-source collection of
-            <strong>theme-ready SVG icons</strong> curated and maintained by the
-            community. Whether you’re building a website, app, or design system
-            — you’ll find clean, ready-to-use icons that fit both
-            <span class="icons">🌙 Dark</span> and
-            <span class="icons">☀️ Light</span> modes.
-        </p>
+            <p>
+                ICONIC is a free, open-source collection of community-curated
+                SVG icons, perfect for websites, apps, and design systems.
+                Easily find and use icons that suit both Dark and Light modes.
+            </p>
 
-        <p>
-            Want to use an icon? Just copy the link. Want to contribute? Submit
-            your own icons and grow the collection with us.
-        </p>
+            <h2>Quick Preview</h2>
+            <img
+                src="https://placehold.co/1920x1080"
+                alt="preview-of-icons"
+                width="900px"
+                class="preview-img"
+            />
 
-        <h2>🔗 Quick Links</h2>
+            <h2>Highlights</h2>
 
-        <a href="/gallery/" class="btn">🎨 View Icon Gallery</a>
-        <a
-            href="https://github.com/YuheshPandian/iconic"
-            class="btn"
-            target="_blank"
-            rel="noopener noreferrer"
-            >📁 GitHub Repo</a
-        >
+            <ul>
+                <li>
+                    Simple folder structure: <code>/icons/dark/</code> and
+                    <code>/icons/light/</code>
+                </li>
+                <li>
+                    Instant icon access via minimal API:
+                    <code>/icon/dark/python</code>
+                </li>
+                <li>Friendly for designers and beginners alike</li>
+                <li>Automatically checks for naming and theme consistency</li>
+            </ul>
 
-        <h2>💡 Highlights</h2>
+            <h2>Join the Project</h2>
 
-        <ul>
-            <li>
-                Simple folder structure: <code>/icons/dark/</code> and
-                <code>/icons/light/</code>
-            </li>
-            <li>
-                Instant icon access via minimal API:
-                <code>/icon/dark/python</code>
-            </li>
-            <li>Friendly for designers and beginners alike</li>
-            <li>Automatically checks for naming and theme consistency</li>
-        </ul>
-
-        <h2>🤝 Join the Project</h2>
-
-        <p>
-            Whether you're a designer, developer, or open-source enthusiast, we
-            welcome your help. Contribute icons, report issues, or just spread
-            the word.
-        </p>
+            <p>
+                Whether you're a designer, developer, or open-source enthusiast,
+                we welcome your help. Contribute icons, report issues, or just
+                spread the word.
+            </p>
+        </main>
 
         <footer>
-            Maintained with 💙 by
+            Maintained with 💚 by
             <a
                 href="https://github.com/YuheshPandian"
                 target="_blank"

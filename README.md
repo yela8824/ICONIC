@@ -1,4 +1,4 @@
-<img src="Banner.svg"/>
+<img src="assests/Banner.svg"/>
 
 > Be iconic, not generic.  
 > A dev-focused library of sleek, bubble-shaped skill icons built for GitHub READMEs, portfolios, and resumes.
@@ -10,8 +10,6 @@
 ![ICONS COUNTER](https://img.shields.io/github/directory-file-count/YuheshPandian/ICONIC/icons%2Fdark?style=for-the-badge&label=Icons&color=%23753ec2)
 ![Repo size](https://img.shields.io/github/repo-size/YuheshPandian/ICONIC?style=for-the-badge&color=%23ff5842)
 ![Issues with label:icon](https://img.shields.io/github/issues/YuheshPandian/ICONIC/icon?style=for-the-badge)
-
-
 
 </div>
 
@@ -25,7 +23,6 @@
 
 Here is a screenshot of several icons designed by ICONIC team.
 ![image](https://github.com/user-attachments/assets/5bbfd9d5-3e51-4a3a-b1ca-86e16cbd3782)
-
 
 ---
 
@@ -43,12 +40,13 @@ Here's a sample of some icons:
 <img src="https://iconic-api.onrender.com/dark/js" width="64px" />
 <div>
 ```
+
 > [!NOTE]  
 > It's recommended to use the HTML snippet in GitHub READMEs, as it allows better control over size, styling, and layout.
 
 ### Dark:
 
-<img src="https://iconic-api.onrender.com/dark/python" width="50px" title="Python" /> <img src="https://iconic-api.onrender.com/dark/html" width="50px" title="HTML" /> <img src="https://iconic-api.onrender.com/dark/js" width="50px" title="Javascript" />  <img src="https://iconic-api.onrender.com/dark/dart" width="50px" title="Dart" />
+<img src="https://iconic-api.onrender.com/dark/python" width="50px" title="Python" /> <img src="https://iconic-api.onrender.com/dark/html" width="50px" title="HTML" /> <img src="https://iconic-api.onrender.com/dark/js" width="50px" title="Javascript" /> <img src="https://iconic-api.onrender.com/dark/dart" width="50px" title="Dart" />
 
 ### Light:
 
@@ -82,5 +80,3 @@ Pull requests are welcome!
 [MIT License](LICENSE)
 
 ---
-
-
