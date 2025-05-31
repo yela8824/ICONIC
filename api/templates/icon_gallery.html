@@ -14,19 +14,63 @@
         ></script>
         <style>
             @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
             body {
                 font-family: system-ui, sans-serif;
-                background: #fefefe;
+                background: #092635;
                 padding: 20px;
+                color: #ddd;
+            }
+            nav {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                background: rgb(27, 66, 66);
+                position: fixed;
+                top: 0;
+                left: 0;
+                padding: 12px 16px;
+                z-index: 100;
+                width: 100%;
+            }
+            nav span {
+                font-size: 1.55rem;
+            }
+            nav ul {
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                list-style: none;
+            }
+            nav ul a {
+                font-size: 1.35rem;
+                color: #5c8374;
+                text-decoration: none;
+                transition: 0.3s ease;
+            }
+            nav ul a:hover {
+                color: #9ec8b9;
+            }
+            main {
+                margin: 80px auto;
             }
             h1 {
                 text-align: center;
+                font-size: 2.75rem;
                 font-family: Inter, sans-serif;
-                font-weight: 300;
+                font-weight: 600;
+                color: #5c8374;
             }
             h2 {
                 font-family: Poppins, sans-serif;
                 font-weight: 300;
+                color: #9ec8b9;
+                border-bottom: 2px solid #1b4242;
+                margin-bottom: 20px;
             }
             .section {
                 margin-top: 40px;
@@ -46,12 +90,11 @@
                 height: 64px;
                 padding: 8px;
                 border-radius: 12px;
-                background: #fff;
-                box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+                background: #1b4242;
                 transition: 100ms ease-out;
             }
             .icon-container img:hover {
-                background: rgb(250, 250, 250);
+                background: #9ec8b9;
                 box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
                 width: 60px;
                 height: 60px;
@@ -59,11 +102,12 @@
             .label {
                 font-size: 12px;
                 margin: 6px 0;
-                background: #efefef;
-                padding: 2px;
+                background: #1b4242;
+                padding: 4px 2px;
                 border-radius: 8px;
                 cursor: pointer;
                 font-family: Montserrat, sans-serif;
+                font-weight: 600;
             }
             .footer-links {
                 margin-top: 30px;
@@ -73,41 +117,62 @@
 
                 a {
                     font-size: 2rem;
-                    color: rgb(110, 110, 110);
+                    color: #9ec8b9;
                 }
             }
         </style>
     </head>
     <body>
-        <h1>Icon Gallery</h1>
+        <nav>
+            <span> ICONIC </span>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/gallery">Gallery</a></li>
+                <li>
+                    <a href="https://github.com/YuheshPandian/ICONIC"
+                        ><i class="fa-brands fa-github"></i
+                    ></a>
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <h1>Icon Gallery</h1>
 
-        <div class="section">
-            <h2>Dark Theme Icons</h2>
-            <div class="icon-grid">
-                {% for icon in dark_icons %}
-                <div class="icon-container">
-                    <img src="/dark/{{ icon|cut:'.svg' }}" alt="{{ icon }}" />
-                    <div class="label" onclick="copyLabelText(this)">
-                        {{ icon|cut:'.svg' }}
+            <div class="section">
+                <h2>Dark Theme Icons</h2>
+                <div class="icon-grid">
+                    {% for icon in dark_icons %}
+                    <div class="icon-container">
+                        <img
+                            src="/dark/{{ icon|cut:'.svg' }}"
+                            alt="{{ icon }}"
+                        />
+                        <div class="label" onclick="copyLabelText(this)">
+                            {{ icon|cut:'.svg' }}
+                        </div>
                     </div>
+                    {% endfor %}
                 </div>
-                {% endfor %}
             </div>
-        </div>
 
-        <div class="section">
-            <h2>Light Theme Icons</h2>
-            <div class="icon-grid">
-                {% for icon in light_icons %}
-                <div class="icon-container">
-                    <img src="/light/{{ icon|cut:'.svg' }}" alt="{{ icon }}" />
-                    <div class="label" onclick="copyLabelText(this)">
-                        {{ icon|cut:'.svg' }}
+            <div class="section">
+                <h2>Light Theme Icons</h2>
+                <div class="icon-grid">
+                    {% for icon in light_icons %}
+                    <div class="icon-container">
+                        <img
+                            src="/light/{{ icon|cut:'.svg' }}"
+                            alt="{{ icon }}"
+                        />
+                        <div class="label" onclick="copyLabelText(this)">
+                            {{ icon|cut:'.svg' }}
+                        </div>
                     </div>
+                    {% endfor %}
                 </div>
-                {% endfor %}
             </div>
-        </div>
+        </main>
+
         <div class="footer-links">
             <a href="https://github.com/YuheshPandian/ICONIC"
                 ><i class="fa-brands fa-github"></i
