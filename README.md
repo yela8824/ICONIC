@@ -1,4 +1,4 @@
-<img src="assests/Banner.svg"/>
+<img src="assets/Banner.svg"/>
 
 > Be iconic, not generic.  
 > A dev-focused library of sleek, bubble-shaped skill icons built for GitHub READMEs, portfolios, and resumes.
