@@ -61,6 +61,9 @@
                 font-family: Inter, sans-serif;
                 font-weight: 600;
                 color: #5c8374;
+                opacity: 0;
+                animation: fadeInText 0.7s ease forwards;
+                animation-delay: 0.7s;
             }
             h2 {
                 font-family: Poppins, sans-serif;
@@ -68,6 +71,9 @@
                 color: #9ec8b9;
                 border-bottom: 2px solid #1b4242;
                 margin-bottom: 20px;
+                opacity: 0;
+                animation: fadeInText 0.7s ease forwards;
+                animation-delay: 0.7s;
             }
             .section {
                 margin-top: 40px;
@@ -76,6 +82,8 @@
                 display: flex;
                 flex-wrap: wrap;
                 gap: 16px;
+                opacity: 0;
+                animation: fadeInPage 0.8s ease forwards;
             }
             .icon-container {
                 width: 100px;
@@ -115,6 +123,17 @@
                 a {
                     font-size: 2rem;
                     color: #9ec8b9;
+                }
+            }
+
+            @keyframes fadeInText {
+                to {
+                    opacity: 1;
+                }
+            }
+            @keyframes fadeInPage {
+                to {
+                    opacity: 1;
                 }
             }
         </style>
