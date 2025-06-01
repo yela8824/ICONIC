@@ -24,9 +24,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
      showgrid="false"
-     inkscape:zoom="0.35355339"
-     inkscape:cx="899.43983"
-     inkscape:cy="224.85996"
+     inkscape:zoom="0.1767767"
+     inkscape:cx="639.22453"
+     inkscape:cy="-879.64084"
      inkscape:window-width="1920"
      inkscape:window-height="1001"
      inkscape:window-x="-9"
@@ -235,7 +235,7 @@
        inkscape:label="Layer 1"
        id="layer1-4"
        transform="matrix(1.1925898,0,0,1.1925898,46.987199,-5.3029909)"><circle
-         style="fill:#9ec8b9;fill-opacity:1;stroke:#858585;stroke-width:8;stroke-dasharray:none;stroke-opacity:0;filter:url(#filter9)"
+         style="fill:#9ec8b9;fill-opacity:1;stroke:#858585;stroke-width:8;stroke-dasharray:none;stroke-opacity:0"
          id="path1"
          inkscape:label="background"
          cx="256"
@@ -243,13 +243,13 @@
          r="241.31339" /><g
          id="g1"
          transform="matrix(2.2996922,0,0,2.2996922,111.99455,106.67419)" /><circle
-         style="fill:#5c8374;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-opacity:0;filter:url(#filter11)"
+         style="fill:#5c8374;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-opacity:0"
          id="path6"
          cx="256"
          cy="256"
          r="168.29141" /><text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:576.743px;font-family:Stencil;-inkscape-font-specification:Stencil;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#1b4242;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-opacity:0;filter:url(#filter13)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:576.743px;font-family:Stencil;-inkscape-font-specification:Stencil;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#1b4242;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-opacity:0"
          x="141.66521"
          y="448.20071"
          id="text6"><tspan
@@ -258,7 +258,7 @@
            x="141.66521"
            y="448.20071"
            style="fill:#1b4242;fill-opacity:1;stroke-width:0">I</tspan></text><circle
-         style="fill:#092635;fill-opacity:1;stroke:#092635;stroke-width:0;stroke-opacity:1;filter:url(#filter15)"
+         style="fill:#092635;fill-opacity:1;stroke:#092635;stroke-width:0;stroke-opacity:1"
          id="path7"
          cx="256"
          cy="256"
