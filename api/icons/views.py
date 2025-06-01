@@ -18,11 +18,11 @@ def get_icon(request, theme, icon_name):
     return FileResponse(open(file_path, "rb"), content_type="image/svg+xml")
 
 
-def server_error(request):
-    if settings.DEBUG:
-        raise TypeError("Error 500")
-    else:
-        pass
+# def server_error(request):
+#     if settings.DEBUG:
+#         raise TypeError("Error 500")
+#     else:
+#         return None
 
 
 def index_page(request):
