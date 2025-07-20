@@ -77,6 +77,7 @@ Here's a sample of some icons:
   <img src="https://iconic-api.onrender.com/light/nodejs" width="50px" title="Node.js (Light)" />
 </div>
 
+---
 
 ## 🚀 Getting Started (Dev Setup)
 
